@@ -382,15 +382,20 @@ footer img{
     width: 250px;
 }
 
+.BeerSec1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .winterhero{ 
-    float: left;
+    
     margin-right: 5em; 
     
 }
 
 .whitehero{
-    float: right;
+    
     align-items: right;
     margin-left: 13em;
 
@@ -399,9 +404,7 @@ footer img{
 .beerherotext{ 
     font-family: 'Pathway Gothic One';
     color: #20346c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: inline-block;
     font-size: 90px;
     text-align: center;
 }
