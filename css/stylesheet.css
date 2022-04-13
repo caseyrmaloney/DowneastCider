@@ -381,3 +381,14 @@ footer img{
     display: inline-block;
     width: 250px;
 }
+
+.BeerSec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/beerbackground5.png);
+    background-size: cover;
+    height: 100vh;
+
+}
+
