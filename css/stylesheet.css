@@ -422,3 +422,11 @@ footer img{
     text-align: center;
 
 }
+
+.BeerSec3{ 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
