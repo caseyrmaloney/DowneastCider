@@ -1,0 +1,383 @@
+body{ 
+    margin: 0;
+    background-color: #e8e9eb;
+    font-family: 'Pathway Gothic One';
+
+}
+
+header{ 
+    
+    
+    background-image: url(../images/bump.png); 
+   
+    background-size: cover;
+    text-align: center;
+  
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   
+}
+
+nav ul{ 
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+}
+
+nav li { 
+    display: inline-block;
+    padding: 0px 100px;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 300;
+    
+}
+
+nav a{ 
+    text-decoration: none;
+    color: #e8e9eb; 
+    padding-bottom: 10px;
+}
+
+a:hover{ 
+    text-decoration: 3px underline white;
+}
+
+
+
+/* LOGO IMAGE IN HEADER  */
+
+.logoimg{ 
+    width: 250px;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+.center{ 
+    font-size: 90px;
+  
+    /* got rid of the weird margin gap at the top */
+    margin-block-start: 0em;
+    padding-top: 4em;
+    margin-left: 0em;
+    margin-block-end: 0em;
+    font-family: 'Pathway Gothic One';
+    color: #20346c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+.Section1{ 
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/backhero4.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    object-fit: contain;
+    
+    
+    
+}
+
+/* SECTION 2 CLASS - OUR STORY */
+
+.Section2{ 
+    margin-top: 4em;
+}
+
+
+
+/* DIV CLASS - INFO  */
+
+h2{ 
+    font-size: 60px;
+    border-bottom: 1px solid black;
+    color: #20346c;
+}
+
+p{ 
+    font-size: 30px;
+    
+}
+/* SECTION 2 CONTAINER */
+
+.sec2{ 
+    height: 90vh;
+  width: 90vw;
+  position: relative;
+
+
+}
+
+/* IMAGE 2 FIX */
+.image2{ 
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80vh;
+  margin-left: 3em;
+  margin-top: 5em;
+  
+    
+
+}
+
+.text2{ 
+    
+    z-index: 100;
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    left: 150px;
+    top: 30px;
+    margin-left: 10em;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+/* BUMMPER SECTION */
+.bump{
+    margin-top: 4em;
+    width: 100vw;
+    height: 100px;
+    background-image: url(../images/bump.png);
+    
+    
+}
+
+
+.bumpertext{ 
+    padding-bottom: 30em;
+    color: white;
+    padding: 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+}
+
+
+/* SECTION 3  */
+
+.section3{ 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.listimg{ 
+    height: 60vh; 
+    padding-bottom: 3em;
+}
+
+.link3{ 
+    background-color: #20346c;
+    color: #e8e9eb;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 0px 10px;
+    
+}
+
+.link3:hover{ 
+    color: #20346c; 
+    background-color: #e8e9eb;
+}
+
+
+/* SECTION 4 */
+.Section4{ 
+    height: 80vh; 
+    display: flex; 
+    justify-content: right;
+    align-items: right;
+    
+    
+}
+
+.text4{ 
+    
+    z-index: 100;
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    top: 2500px;
+    margin-left: 1em;
+    text-align: left;
+    right: 300px;
+   
+    
+  
+}
+
+.link4{ 
+    background-color: #20346c;
+    color: #e8e9eb;
+    font-size: 40px;
+    text-decoration: none;
+   padding: 0px 10px;
+    margin-top: 12em;
+    margin-left: 4em;
+
+    
+}
+
+.link4:hover{ 
+    color: #20346c; 
+    background-color: #e8e9eb;
+}
+
+.slider{ 
+    
+    width: 800px; 
+    height: 700px; 
+    margin-top: 15em;
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{ 
+    width: 500%; 
+    height: 500px; 
+    display: flex; 
+}
+
+.slides input{ 
+    display: none;
+}
+
+.slide{ 
+    width: 20%; 
+    transition: 2s;  
+}
+
+.slide img{ 
+    width: 800px; 
+    height: 500px; 
+
+}
+
+/* CSS FOR MANUAL SLIDE NAVIGATION */
+
+.nav-man{ 
+    position: absolute;
+    width: 800px;
+    margin-top: -40px; 
+    display: flex; 
+    justify-content: center;
+
+}
+
+.manual-btn{
+    border: 2px solid white; 
+    padding: 5px; 
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: 1s; 
+}
+
+.manual-btn:not(:last-child){ 
+    margin-right: 40px;
+
+}
+
+.manual-btn:hover{ 
+    background: white;
+
+}
+
+
+#radio1:checked ~ .first{ 
+    margin-left:0; 
+
+}
+#radio2:checked ~ .first{ 
+    margin-left:-20%; 
+    
+}
+#radio3:checked ~ .first{ 
+    margin-left:-40%; 
+    
+}
+#radio4:checked ~ .first{ 
+    margin-left:-60%; 
+    
+}
+ 
+
+/* CSS FOR ATO NAVIGATION */
+
+.nav-auto{
+    position: absolute; 
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px; 
+
+}
+
+.nav-auto div{ 
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s; 
+}
+
+.nav-auto div:not(:last-child){ 
+    margin-right: 40px;
+}
+
+#radio1:checked ~.nav-atuo .auto-btn1{ 
+    background: white; 
+}
+
+#radio2:checked ~.nav-atuo .auto-btn2{ 
+    background: white; 
+}
+#radio3:checked ~.nav-atuo .auto-btn3{ 
+    background: white; 
+}
+#radio4:checked ~.nav-atuo .auto-btn4{ 
+    background: white; 
+}
+
+footer{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+    background-color: #20346c;
+
+}
+
+
+
+
+
+footer h3{
+    
+   display: inline-block;
+    color: #e8e9eb;
+    align-items: center;
+}
+
+footer img{ 
+    display: inline-block;
+    width: 250px;
+}
