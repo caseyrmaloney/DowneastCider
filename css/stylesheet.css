@@ -382,13 +382,27 @@ footer img{
     width: 250px;
 }
 
-.BeerSec1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../images/beerbackground5.png);
-    background-size: cover;
-    height: 100vh;
 
+.winterhero{ 
+    float: left;
+    margin-right: 5em; 
+    
+}
+
+.whitehero{
+    float: right;
+    align-items: right;
+    margin-left: 13em;
+
+}
+
+.beerherotext{ 
+    font-family: 'Pathway Gothic One';
+    color: #20346c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    text-align: center;
 }
 
