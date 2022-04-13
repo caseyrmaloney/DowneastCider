@@ -73,6 +73,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
     
     
@@ -361,7 +362,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10em;
+   
     background-color: #20346c;
 
 }
@@ -374,13 +375,22 @@ footer h3{
     
    display: inline-block;
     color: #e8e9eb;
-    align-items: center;
+    text-align: center;
 }
 
 footer img{ 
     display: inline-block;
+    text-align: center;
     width: 250px;
 }
+
+footer li { 
+    display: inline-block;
+    text-align: center
+    ;
+}
+
+
 
 .BeerSec1{ 
     display: flex;
@@ -413,11 +423,15 @@ footer img{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(../images/bump.png);
+    background-size: cover;
 }
 
-.sec2quote{ 
 
-    color: #20346c;
+
+.sec2quote{ 
+    
+    color: #e8e9eb;
     font-size: 60px;
     text-align: center;
 
