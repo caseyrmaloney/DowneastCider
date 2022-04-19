@@ -35,7 +35,17 @@ nav li {
     justify-content: center;
     font-size: 40px;
     font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
     
+}
+nav li a:hover{ 
+    color: #20346c;
+    background-color: #e8e9e8;
+    border-radius: 30px;
+    padding: 5px 5px;
+    
+
 }
 
 nav a{ 
@@ -44,9 +54,7 @@ nav a{
     padding-bottom: 10px;
 }
 
-a:hover{ 
-    text-decoration: 3px underline white;
-}
+
 
 
 
@@ -64,16 +72,17 @@ a:hover{
     font-size: 90px;
   
     /* got rid of the weird margin gap at the top */
-    margin-block-start: 0em;
-    padding-top: 4em;
-    margin-left: 0em;
-    margin-block-end: 0em;
+   
     font-family: 'Pathway Gothic One';
     color: #20346c;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: #e8e9eb98;
+    border-radius: 30px;
+    padding: 10px 10px;
+    text-transform: uppercase;
     
     
     
@@ -81,7 +90,12 @@ a:hover{
 
 
 
+
+
 .Section1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     height: 100vh;
     width: 100vw;
@@ -136,6 +150,9 @@ p{
     
 
 }
+.h2index{ 
+    text-transform: uppercase;
+}
 
 .text2{ 
     
@@ -169,6 +186,7 @@ p{
     text-align: center;
     justify-content: center;
     font-size: 70px;
+    
 }
 
 
@@ -179,6 +197,10 @@ p{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.h2index{ 
+    text-transform: uppercase;
 }
 
 .listimg{ 
@@ -192,12 +214,17 @@ p{
     font-size: 40px;
     text-decoration: none;
     padding: 0px 10px;
+    text-transform: uppercase;
+    border-radius: 30px;
     
 }
 
 .link3:hover{ 
     color: #20346c; 
-    background-color: #e8e9eb;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #e8e9e8;
+    filter: drop-shadow(30px 10px 10px #20346c);
 }
 
 
@@ -226,6 +253,19 @@ p{
   
 }
 
+/* IMAGE 4 FIX */
+.image4{ 
+
+  left: 30px;
+  top: 0;
+  width: 70vh;
+  margin-right: 2em;
+  margin-top: 5em;
+  
+    
+
+}
+
 .link4{ 
     background-color: #20346c;
     color: #e8e9eb;
@@ -234,13 +274,18 @@ p{
    padding: 0px 10px;
     margin-top: 12em;
     margin-left: 4em;
+    text-transform: uppercase;
+    border-radius: 30px;
 
     
 }
 
 .link4:hover{ 
     color: #20346c; 
-    background-color: #e8e9eb;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #e8e9e8;
+    filter: drop-shadow(30px 10px 10px #20346c);
 }
 
 .slider{ 
@@ -362,7 +407,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    margin-top: 20px;
     background-color: #20346c;
 
 }
@@ -379,16 +424,26 @@ footer h3{
 }
 
 footer img{ 
-    display: inline-block;
-    text-align: center;
+    
     width: 250px;
+}
+
+.footerimg{ 
+    align-items: center;
 }
 
 footer li { 
     display: inline-block;
-    text-align: center
-    ;
+    text-align: center;
 }
+
+.social{ 
+    width: 5vh; 
+    padding: 0px 10px; 
+}
+
+
+/* beer css  */
 
 
 
@@ -396,30 +451,30 @@ footer li {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/pouringtap.png);
+    background-size: cover;
+    height: 130vh;
+    background-position: top;
+    opacity: 100%;
 }
 
-.winterhero{ 
-    
-    margin-right: 5em; 
-    
-}
 
-.whitehero{
-    
-    align-items: right;
-    margin-left: 13em;
-
-}
 
 .beerherotext{ 
     font-family: 'Pathway Gothic One';
-    color: #20346c;
+    color: #e8e9eb;
    display: inline-block;
     font-size: 90px;
     text-align: center;
+    text-transform: uppercase;
+    background-color: #20346c8a;
+    border-radius: 30px;
+    padding: 10px 10px; 
+    
 }
 
 .BeerSec2{ 
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -449,6 +504,72 @@ footer li {
 .list1{ 
 
     height: 60vh; 
-    padding: 3em 6em;
+    padding: 10px 40px;
+    filter: drop-shadow(30px 10px 10px #20346c);
 
+}
+
+.parentcard{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+/* weird solution to get the price and abv on the same line  */
+.cards p { 
+    height: 150px; 
+    
+}
+
+.cardinfo{ 
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+
+.cards{ 
+    height: 300px; 
+    width: 350px; 
+    background-color: #20346c;
+    color: #e8e9eb;
+   margin: 0px 30px;
+   padding: 0px 10px;
+   border-radius: 30px;
+   
+   
+}
+
+h4{ 
+    font-size: 20px;
+}
+
+.addparrent{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.link5{ 
+    background-color: #20346c;
+    color: #e8e9eb;
+    font-size: 40px;
+    text-decoration: none;
+   padding: 1px 10px;
+   margin: 30px 143px;
+   margin-bottom: 50px;
+   border-radius: 30px;
+
+    
+}
+
+.link5:hover{ 
+    color: #20346c; 
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #e8e9e8;
+    filter: drop-shadow(30px 10px 10px #20346c);
+   
 }
